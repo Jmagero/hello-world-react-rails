@@ -12,6 +12,9 @@ This app shows a different greeting message when you refresh the page. It uses r
 
 API calls are made directly from the component to the Rails API endpoint.
 
+## Live demo
+[video](https://radiant-caverns-81544.herokuapp.com/)
+
 ### Built With
 - HTML, CSS, JavaScript (ES6)
 - Ruby
