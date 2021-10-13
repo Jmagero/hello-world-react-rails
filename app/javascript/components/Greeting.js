@@ -1,23 +1,18 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getMessages } from '../src/api/api'
+import { getMessages } from '../redux/message/message'
 
 
 const Greeting = () => {
   const dispatch = useDispatch()
-  const posts = useSelector(state => state.posts)
+  const message = useSelector(state => state.messageReducer.message)
   useEffect(() => {
       dispatch(getMessages())
   }, [])
 
-  if (posts.length === 0) { return <div>loading...</div>}
-
-  console.log(posts)
-
   return (
     <div>
-      <h1>Greetings</h1>
-      <p>This is our greetings.</p>
+      Greeting: {message.title}
     </div>
   )
 }
