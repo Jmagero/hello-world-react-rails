@@ -1,21 +1,9 @@
-<div align="center">
-<h1>My First React/Redux Rails App!</h1>
-</div>
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-<div align="center">
- <img src="https://img.shields.io/badge/Microverse-blueviolet">
- <img src="https://img.shields.io/badge/Academic-blue">
- <img src="https://img.shields.io/badge/HTML-red">
- <img src="https://img.shields.io/badge/JavaScript-yellow">
- <img src="https://img.shields.io/badge/CSS-blue">
- <img src="https://img.shields.io/badge/Rails-maroon">
- <img src="https://img.shields.io/badge/React-purple">
- <img src="https://img.shields.io/badge/Redux-violet">
-</div>
+# hello-world-react-rails
 
 <br>
-
-<p align="center">I built this app using the <i>webpacker</i> and <i>react-rails</i> gems. This app is for learning purposes only, to understand how to build a Rails app integated with React and Redux. I used the following tutorial to help me along: <a rel="noopener noreferrer" target="_blank" href="https://www.freecodecamp.org/news/how-to-create-a-rails-project-with-a-react-and-redux-front-end-8b01e17a1db/" >https://www.freecodecamp.org/news/how-to-create-a-rails-project-with-a-react-and-redux-front-end-8b01e17a1db/</a>.
+<p align="center">This app is built using the <i>webpacker</i> and <i>react-rails</i> gems. This app is for learning purposes only, to understand how to build a Rails app integated with React and Redux.
 The app loads a different greeting message every time you reload the page. The controller gets the message from a query made to a local PostgreSQL db.</p>
 <br>
 
@@ -24,14 +12,10 @@ This app shows a different greeting message when you refresh the page. It uses r
 
 API calls are made directly from the component to the Rails API endpoint.
 
-### Live Demo
-
-Deployed to Heroku: [Live Demo](https://shrouded-tor-79384.herokuapp.com/#/)
-
 ### Built With
 - HTML, CSS, JavaScript (ES6)
-- Ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [arm64-darwin20]
-- Rails 6.1.4.1
+- Ruby
+- Rails
 - gem 'react-rails'
 - gem 'webpacker', '~> 5.0'
 - gem 'spring'
@@ -44,7 +28,6 @@ Deployed to Heroku: [Live Demo](https://shrouded-tor-79384.herokuapp.com/#/)
 - redux-logger
 - redux-thunk
 - Linters: Rubocop, ESLint
-- Mac OS
 - VS Code
 
 ## Getting Started
@@ -53,14 +36,14 @@ To get a local copy up and running, follow these simple example steps.
 
 ### Prerequisites
 - A browser to open the main file
-- Ruby 3.0.1p64 or higher
+- Ruby 2.6.8
 - Node.js
 - NPM
 - Yarn
 
 ### Get files
 1. Open your terminal or command prompt.
-2. If you do not have git installed in your system, skip this step and go to step 3; otherwise, go to the directory where you want to copy the project files and clone it by copying this text into your command prompt/terminal: `git clone git@github.com:StarSheriff2/hello-rails-react.git`.
+2. If you do not have git installed in your system, skip this step and go to step 3; otherwise, go to the directory where you want to copy the project files and clone it by copying this text into your command prompt/terminal: `https://github.com/Jmagero/hello-world-react-rails.git`.
 <br>Now go to the ***"Install Dependencies"*** section
 3. Download the program files by clicking on the green button that says “**Code**” on the upper right side of the project frame.
 4. You will see a dropdown menu. Click on “**Download ZIP**.”
@@ -92,11 +75,10 @@ To run the linters included in this repository, go to the root directory of your
 - for Rubocop, `rubocop .`
 
 ## Author
-👤 **Arturo Alvarez**
-- Github: [@StarSheriff2](https://github.com/StarSheriff2)
-- Twitter: [@ArturoAlvarezV](https://twitter.com/ArturoAlvarezV)
-- Linkedin: [Arturo Alvarez](https://www.linkedin.com/in/arturoalvarezv/)
-
+👨‍💻 **Jocyline Magero**
+- Github: [@jmagero](https://github.com/Jmagero)
+- Twitter: [@MagzCelyn](https://twitter.com/magero_jocyline)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jocyline-magero/)
 ## 🤝 Acknowledgements
 
 Tutorial:
