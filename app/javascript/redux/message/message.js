@@ -32,7 +32,7 @@ export const fetchMessages = () => {
 export const getMessages = () => async (dispatch) => {
   dispatch(getMessagesStarted());
   const  data  = await fetchMessages()
-  dispatch(getMessagesSuccess(data))
+  dispatch(getMessagesSuccess(data.data))
 }
 
 
