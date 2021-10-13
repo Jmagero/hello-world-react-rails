@@ -6,11 +6,10 @@ const ROOT_PATH = '/api/v1'
 const MESSAGES_PATH = `${ROOT_PATH}/random-greeting`
 
 const initialstate = {
-    message: '...wait',
+    message: '...loading',
     loading: false
 }
 
-// Action Creators
 export const getMessagesStarted = () => ({
   type: FETCH_STARTED,
 });
