@@ -8,5 +8,5 @@
 
 
 
-Message.create([{title: 'Good morning'},{title: 'Good Afternoo'},{title: 'Good Evening'}
+Message.create([{title: 'Good morning'},{title: 'Good Afternoo'},{title: 'Good Evening'},
     {title: 'Hello'}, {title: 'Hi'}])
