@@ -31,8 +31,8 @@ export const fetchMessages = () => {
 
 export const getMessages = () => async (dispatch) => {
   dispatch(getMessagesStarted());
-  const { data } = await fetchMessages()
-  dispatch(getMessagesSuccess(data))
+  const  data  = await fetchMessages()
+  dispatch(getMessagesSuccess(data.data))
 }
 
 
